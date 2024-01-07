@@ -4,6 +4,8 @@
       <nav id="nav">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About us</RouterLink>
+        <RouterLink to="/contact">Contact us</RouterLink>
+        <RouterLink to="/services">Services</RouterLink>
         <RouterLink v-for="destination in destinations" :to="`/destination/${destination.slug}`"
           >{{ destination.slug }}</RouterLink
         >
