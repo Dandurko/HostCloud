@@ -23,48 +23,7 @@
               <p>Aenean molestie, odio quis viverra ultricies, leo tellus lacinia neque, sit amet maximus tortor nunc aliquet felis. Duis sit amet nibh non sapien tincidunt bibendum. Curabitur rutrum justo id leo ornare, suscipit lobortis augue volutpat.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <i class="fa fa-cloud"></i>
-              <h4>VPS Cloud</h4>
-              <p>Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit elementum tempor. Pellentesque nec urna ipsum.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <i class="fa fa-server"></i>
-              <h4>Fast Network</h4>
-              <p>Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex pharetra, vitae tincidunt dolor condimentum.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <i class="fa fa-database"></i>
-              <h4>Reliable Platform</h4>
-              <p>Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit elementum tempor. Pellentesque nec urna ipsum.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <i class="fa fa-save"></i>
-              <h4>Managed CDN</h4>
-              <p>Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex pharetra, vitae tincidunt dolor condimentum.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <i class="fa fa-check"></i>
-              <h4>Optimal Hosting</h4>
-              <p>Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit elementum tempor. Pellentesque nec urna ipsum.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="service-item">
-              <i class="fa fa-support"></i>
-              <h4>Customer Support</h4>
-              <p>Cras placerat mauris scelerisque, placerat enim sed, imperdiet diam. Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque.</p>
-            </div>
-          </div>
+            <Service/>
         </div>
       </div>
     </div>
@@ -116,3 +75,11 @@
 
 
 </template>
+<script>
+import Service from "@/components/Service.vue";
+export default {
+  components: {
+    Service, 
+  },
+};
+</script>
