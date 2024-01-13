@@ -77,7 +77,14 @@
 </template>
 <script>
 import Service from "@/components/Service.vue";
+import servicesFile from "../assets/services.json";
+
 export default {
+  data() {
+    return {
+      services: servicesFile.services,
+    };
+  },
   components: {
     Service, 
   },

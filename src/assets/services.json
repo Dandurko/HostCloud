@@ -1,6 +1,35 @@
-[
-    {
-        "name":"Name",
-        "text":"Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit elementum tempor. Pellentesque nec urna ipsum."
-    }
-]
+{
+    "services": [
+      {
+        "icon": "fa fa-cloud",
+        "name": "VPS Cloud",
+        "text": "Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit elementum tempor. Pellentesque nec urna ipsum."
+      },
+      {
+        "icon": "fa fa-server",
+        "name": "Fast Network",
+        "text": "Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex pharetra, vitae tincidunt dolor condimentum."
+      },
+      {
+        "icon": "fa fa-database",
+        "name": "Reliable Platform",
+        "text": "Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit elementum tempor. Pellentesque nec urna ipsum."
+      },
+      {
+        "icon": "fa fa-save",
+        "name": "Managed CDN",
+        "text": "Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex pharetra, vitae tincidunt dolor condimentum."
+      },
+      {
+        "icon": "fa fa-check",
+        "name": "Optimal Hosting",
+        "text": "Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque. Aenean nec tellus ac velit elementum tempor. Pellentesque nec urna ipsum."
+      },
+      {
+        "icon": "fa fa-support",
+        "name": "Customer Support",
+        "text": "Cras placerat mauris scelerisque, placerat enim sed, imperdiet diam. Fusce blandit commodo metus eu suscipit. Nullam ut blandit neque."
+      }
+    ]
+  }
+  

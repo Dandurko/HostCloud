@@ -1,0 +1,65 @@
+{
+    "pricingItems": [
+      {
+        "name": "Advanced Cloud",
+        "price": {
+          "amount": 72.25,
+          "interval": "monthly"
+        },
+        "description": "Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.",
+        "features": [
+          "4 TB Cloud Space",
+          "20 TB Data Transfer",
+          "Fully Managed Panel",
+          "15-minute Quick Support",
+          "Top Notch Web Apps",
+          "Advanced Scalable"
+        ],
+        "cta": {
+          "text": "Take it now",
+          "link": "#"
+        }
+      },
+      {
+        "name": "Advanced Cloud",
+        "price": {
+          "amount": 72.25,
+          "interval": "monthly"
+        },
+        "description": "Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.",
+        "features": [
+          "4 TB Cloud Space",
+          "20 TB Data Transfer",
+          "Fully Managed Panel",
+          "15-minute Quick Support",
+          "Top Notch Web Apps",
+          "Advanced Scalable"
+        ],
+        "cta": {
+          "text": "Take it now",
+          "link": "#"
+        }
+      },
+      {
+        "name": "Advanced Cloud",
+        "price": {
+          "amount": 72.25,
+          "interval": "monthly"
+        },
+        "description": "Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.",
+        "features": [
+          "4 TB Cloud Space",
+          "20 TB Data Transfer",
+          "Fully Managed Panel",
+          "15-minute Quick Support",
+          "Top Notch Web Apps",
+          "Advanced Scalable"
+        ],
+        "cta": {
+          "text": "Take it now",
+          "link": "#"
+        }
+      }
+    ]
+  }
+  

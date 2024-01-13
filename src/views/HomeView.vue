@@ -45,25 +45,25 @@
           <div class="col-md-12">
             <div class="owl-trusted owl-carousel">
               <div class="trusted-item">
-                <img src="assets/images/trusted-01.png" alt="trusted 1">
+                <img src="src/assets/images/trusted-01.png" alt="trusted 1">
               </div>
               <div class="trusted-item">
-                <img src="assets/images/trusted-01.png" alt="trusted 2">
+                <img src="src/assets/images/trusted-01.png" alt="trusted 2">
               </div>
               <div class="trusted-item">
-                <img src="assets/images/trusted-01.png" alt="trusted 3">
+                <img src="src/assets/images/trusted-01.png" alt="trusted 3">
               </div>
               <div class="trusted-item">
-                <img src="assets/images/trusted-01.png" alt="trusted 4">
+                <img src="src/assets/images/trusted-01.png" alt="trusted 4">
               </div>
               <div class="trusted-item">
-                <img src="assets/images/trusted-01.png" alt="trusted 5">
+                <img src="src/assets/images/trusted-01.png" alt="trusted 5">
               </div>
               <div class="trusted-item">
-                <img src="assets/images/trusted-01.png" alt="trusted 6">
+                <img src="src/assets/images/trusted-01.png" alt="trusted 6">
               </div>
               <div class="trusted-item">
-                <img src="assets/images/trusted-01.png" alt="trusted 7">
+                <img src="src/assets/images/trusted-01.png" alt="trusted 7">
               </div>
             </div>
           </div>
@@ -116,7 +116,6 @@
         <div class="row">
         
     <HostingPlan/>
-    <HostingPlan/>
 
         </div>
       </div>
@@ -134,7 +133,7 @@
           <div class="col-md-6">
             <div class="feature-item">
               <div class="icon">
-                <img src="assets/images/feature-01.png" alt="">
+                <img src="src/assets/images/feature-01.png" alt="">
               </div>
               <h4>Load Balanced</h4>
               <p>Nulla nisl ex, vehicula in urna nec, commodo consectetur augue. Vivamus nec metus mauris. Praesent lacinia tempus urna.</p>
@@ -143,7 +142,7 @@
           <div class="col-md-6">
             <div class="feature-item">
               <div class="icon">
-                <img src="assets/images/feature-01.png" alt="">
+                <img src="src/assets/images/feature-01.png" alt="">
               </div>
               <h4>99.9% Uptime Guaranteed</h4>
               <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
@@ -152,7 +151,7 @@
           <div class="col-md-6">
             <div class="feature-item">
               <div class="icon">
-                <img src="assets/images/feature-01.png" alt="">
+                <img src="src/assets/images/feature-01.png" alt="">
               </div>
               <h4>Top Reliability</h4>
               <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
@@ -161,7 +160,7 @@
           <div class="col-md-6">
             <div class="feature-item">
               <div class="icon">
-                <img src="assets/images/feature-01.png" alt="">
+                <img src="src/assets/images/feature-01.png" alt="">
               </div>
               <h4>High Security</h4>
               <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
@@ -170,7 +169,7 @@
           <div class="col-md-6">
             <div class="feature-item">
               <div class="icon">
-                <img src="assets/images/feature-01.png" alt="">
+                <img src="src/assets/images/feature-01.png" alt="">
               </div>
               <h4>Quality Hardwares</h4>
               <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
@@ -179,7 +178,7 @@
           <div class="col-md-6">
             <div class="feature-item">
               <div class="icon">
-                <img src="assets/images/feature-01.png" alt="">
+                <img src="src/assets/images/feature-01.png" alt="">
               </div>
               <h4>Network Solutions</h4>
               <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
