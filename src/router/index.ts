@@ -3,11 +3,18 @@ import HomeView from '../views/HomeView.vue';
 import AboutUs from '../views/AboutUs.vue';
 import Contact from '../views/Contact.vue';
 import Services from '../views/Services.vue';
+import ItemStorage from '../views/ItemsStorage.vue';
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView,
+    props: true,
+  },
+  {
+    path: '/storage',
+    name: 'storage',
+    component: ItemStorage,
     props: true,
   },
   {

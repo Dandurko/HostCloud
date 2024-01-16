@@ -6,6 +6,7 @@
         <RouterLink to="/about">About us</RouterLink>
         <RouterLink to="/contact">Contact us</RouterLink>
         <RouterLink to="/services">Services</RouterLink>
+        <RouterLink to="/storage">Storage</RouterLink>
       </nav>
     </header>
   
