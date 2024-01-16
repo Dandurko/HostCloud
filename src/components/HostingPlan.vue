@@ -1,6 +1,5 @@
 <template>
-  <!-- Pricing Starts Here -->
-  <div v-for="(item, index) in hosting" :key="index" class="col-md-4 col-sm-6 col-xs-12">
+  <div v-for="(item, index) in counti" :key="index" class="col-md-4 col-sm-6 col-xs-12">
     <div class="pricing-item">
       <h4>{{ item.name }}</h4>
       <div class="price">
@@ -14,20 +13,37 @@
           <i class="fa fa-check"></i>{{ feature }}
         </li>
       </ul>
-      <a :href="item.cta.link" class="main-button">{{ item.cta.text }}</a>
+      <a :href="item.cta.link" class="main-button" @click.prevent="incrementCount(index)">Increment Count</a>
+      {{ item.count }}
     </div>
   </div>
-  <!-- Pricing Ends Here -->
+  <div style="margin-left: 50px"></div>
 </template>
 
-<script>
-import hostingPlansFile from "../assets/hostingPlans.json";
+<script lang="ts">
+import { usePricingStore } from "@/stores/offers";
 
 export default {
   data() {
+    const counterStore = usePricingStore();
     return {
-      hosting: hostingPlansFile.pricingItems,
+      // Vráti priamo reaktívnu referenciu na počet
+      counterStore,
     };
+  },
+  props: {
+    msg: String,
+  },
+  computed: {
+    // Vypočítaná vlastnosť pre získanie aktuálneho počtu
+    counti() {
+      return this.counterStore.pricingItems;
+    },
+  },
+  methods: {
+    incrementCount(index) {
+      this.counterStore.incrementCountById(index);
+    },
   },
 };
 </script>

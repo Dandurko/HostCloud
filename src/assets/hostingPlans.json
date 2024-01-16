@@ -18,7 +18,8 @@
         "cta": {
           "text": "Take it now",
           "link": "#"
-        }
+        },
+        "count":10
       },
       {
         "name": "Advanced Cloud",
@@ -38,7 +39,8 @@
         "cta": {
           "text": "Take it now",
           "link": "#"
-        }
+        },
+        "count":10
       },
       {
         "name": "Advanced Cloud",
@@ -58,7 +60,8 @@
         "cta": {
           "text": "Take it now",
           "link": "#"
-        }
+        },
+        "count":10
       }
     ]
   }
