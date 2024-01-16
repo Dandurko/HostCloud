@@ -18,9 +18,6 @@ interface PricingItem {
 }
 
 export const usePricingStore = defineStore('pricing', {
-  setup() {
-    this.initializeData();
-  },
   state: () => ({
     pricingItems: [
       {
@@ -82,7 +79,9 @@ export const usePricingStore = defineStore('pricing', {
       this.pricingItems[id].count += 1;
     },
     decrementCountById(id: number) {
-      this.pricingItems[id].count -= 1;
+      if (this.pricingItems[id].count > 0) {
+        this.pricingItems[id].count -= 1;
+      }
     },
   },
 });
