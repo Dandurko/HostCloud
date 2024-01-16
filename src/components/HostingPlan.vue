@@ -13,7 +13,11 @@
           <i class="fa fa-check"></i>{{ feature }}
         </li>
       </ul>
-      <a :href="item.cta.link" class="main-button" @click.prevent="incrementCount(index)">Increment Count</a>
+      <br>
+      <button type="button" class="btn-main" @click.prevent="incrementCount(index)">Increment Count</button>
+      <br> <br>
+      <button type="button"  class="btn-secondary" @click.prevent="decrementCount(index)">Decrement Count</button>
+      <br> <br>
       {{ item.count }}
     </div>
   </div>
@@ -27,7 +31,6 @@ export default {
   data() {
     const counterStore = usePricingStore();
     return {
-      // Vráti priamo reaktívnu referenciu na počet
       counterStore,
     };
   },
@@ -35,7 +38,6 @@ export default {
     msg: String,
   },
   computed: {
-    // Vypočítaná vlastnosť pre získanie aktuálneho počtu
     counti() {
       return this.counterStore.pricingItems;
     },
@@ -43,6 +45,9 @@ export default {
   methods: {
     incrementCount(index) {
       this.counterStore.incrementCountById(index);
+    },
+    decrementCount(index) {
+      this.counterStore.decrementCountById(index);
     },
   },
 };

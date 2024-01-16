@@ -6,13 +6,8 @@
 </template>
 
 <script>
-//pokial zostane cas tak hodit to aj do contact us
 export default {
   props: {
-    type: {
-      type: String,
-      default: 'info',
-    },
     message: {
       type: String,
       required: true,
@@ -26,7 +21,7 @@ export default {
   methods: {
     closeMessage() {
       this.show = false;
-      this.$emit('closeMessage'); // Emitovat událost closeMessage
+      this.$emit('closeMessage'); // Emitovat closeMessage
     },
   },
 };

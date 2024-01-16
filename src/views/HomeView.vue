@@ -229,12 +229,11 @@ export default {
     return {
       showMessage: false,
       message: "",
-      domain: "", // New data property for the input value
+      domain: "", 
     };
   },
   methods: {
     submitForm() {
-      // Check if the domain input is empty
       if (this.domain.trim() === "") {
         this.showMessage = true;
         this.message = "Please enter a domain.";

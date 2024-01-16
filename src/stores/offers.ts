@@ -1,7 +1,26 @@
 import { defineStore } from 'pinia';
 
+interface Price {
+  amount: number;
+  interval: string;
+}
+
+interface PricingItem {
+  name: string;
+  price: Price;
+  description: string;
+  features: string[];
+  cta: {
+    text: string;
+    link: string;
+  };
+  count: number;
+}
+
 export const usePricingStore = defineStore('pricing', {
-  // Stav store
+  setup() {
+    this.initializeData();
+  },
   state: () => ({
     pricingItems: [
       {
@@ -24,7 +43,8 @@ export const usePricingStore = defineStore('pricing', {
           link: "#",
         },
         count: 5,
-      },    {
+      },
+      {
         name: "Advanced Cloud",
         price: {
           amount: 72.25,
@@ -45,25 +65,24 @@ export const usePricingStore = defineStore('pricing', {
         },
         count: 10,
       },
-      // ... other pricing items
-    ],
+    ] as PricingItem[],
   }),
 
   // Getters
   getters: {
-    // Getter to get the count for a specific pricing item
     getItems: (state) => () => state.pricingItems,
-    getCountById: (state) => (id) => state.pricingItems[id].count,
+    getCountById: (state) => (id: number) => state.pricingItems[id].count,
 
-    // Getter to get the double count for a specific pricing item
-    doubleCountById: (state, getters) => (id) => getters.getCountById(id) * 2,
+    doubleCountById: (state, getters) => (id: number) => getters.getCountById(id) * 2,
   },
 
-  // Actions
+
   actions: {
-    // Action to increment the count for a specific pricing item
-    incrementCountById(id) {
+    incrementCountById(id: number) {
       this.pricingItems[id].count += 1;
+    },
+    decrementCountById(id: number) {
+      this.pricingItems[id].count -= 1;
     },
   },
 });
